@@ -1,0 +1,27 @@
+{
+  "name": "stateless-2026",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx scripts/dev.ts",
+    "dev:next": "next dev --port 3004",
+    "build": "next build",
+    "start": "next start --port 3004"
+  },
+  "dependencies": {
+    "@cursor/sdk": "^1.0.5",
+    "@mcp-learning/shared": "*",
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "next": "^15.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tsx": "^4.20.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.16.5",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "typescript": "^5.8.3"
+  }
+}

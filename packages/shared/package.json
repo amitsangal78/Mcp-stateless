@@ -1,0 +1,22 @@
+{
+  "name": "@mcp-learning/shared",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./server": "./src/server.ts",
+    "./styles.css": "./src/styles/globals.css"
+  },
+  "dependencies": {
+    "@cursor/sdk": "^1.0.5"
+  },
+  "peerDependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "typescript": "^5.8.3"
+  }
+}

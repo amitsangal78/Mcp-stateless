@@ -1,0 +1,20 @@
+{
+  "name": "mcp-learning",
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  },
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:before": "npm run dev -w before-mcp",
+    "dev:after": "npm run dev -w after-mcp",
+    "dev:remote": "npm run dev -w remote-2025",
+    "dev:sessions": "npm run dev -w sessions-2025",
+    "dev:stateless": "npm run dev -w stateless-2026",
+    "build:before": "npm run build -w before-mcp",
+    "build:after": "npm run build -w after-mcp",
+    "build:remote": "npm run build -w remote-2025",
+    "build:sessions": "npm run build -w sessions-2025",
+    "build:stateless": "npm run build -w stateless-2026"
+  }
+}
